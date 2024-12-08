@@ -28,7 +28,7 @@ export default function Booktable({ isOpen, onClose }) {
                         <div className="  flex justify-center items-center  lg:w-full">
                             <h2 className="playfair text-green-800 text-2xl lg:text-[3vw]" >BookYourTable</h2>
                         </div>
-                        <div className=" sm:flex sm:justify-center sm:items-center hidden lg:mx-1 ">
+                        <div className="  hidden lg:mx-1 ">
                             <button onClick={onClose} className="text-gold cursor-pointer hover:text-white">
                         <MdOutlineCancel size={40}/>  
                             </button>
