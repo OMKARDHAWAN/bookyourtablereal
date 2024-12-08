@@ -6,7 +6,7 @@ import Link from "next/link";
 export default function Footer() {
   return (
     <>
- <div className=" bg-green-700 flex  flex-col  w-full  sm:h-96 lg:h-max">
+ <div className=" bg-green-700 flex  flex-col  w-full  sm:h-[42vh] lg:h-max">
       <div className=" w-full py-5 ">
        <div className=" h-80 flex  flex-col md:flex md:justify-center md:items-center md:flex-row lg:h-max lg:mx-10  lg:flex lg:justify-between lg:items-center">
         <div className="  flex  my-3  md:w-96   lg:h-48 lg:w-full" >
@@ -40,7 +40,7 @@ export default function Footer() {
               <h3 className="text-white text-md neucha-regular text-lg sm:text- ">+918956503272</h3>
               <h4 className="text-white text-md neucha-regular text-lg sm:text- ">© 2024  All Rights Reserved.</h4>
             </div>
-            <div className="flex justify-center items-center  h-10 " >
+            <div className="flex justify-center items-center  h-10  sm:h-10" >
               <Link href="https://www.instagram.com/dhawan_omkar/?hl=en" className="mx-1 ">
               <span className="mx-1 text-white my-2 hover:text-gold cursor-pointer" ><FaInstagram size={28} /></span>
               </Link>
