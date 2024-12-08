@@ -1,0 +1,45 @@
+.Navtext{
+    font-size: 1.1rem;
+    color: #976F41;
+    width: 24rem;
+    height: 3rem;
+}
+.Navtext:hover{
+    color: white;
+    background-color: #B26F41;
+    transition: all 0.3s linear;
+}
+
+.Navlist{
+    width: 100px;
+    text-align: center;
+
+}
+.Navul{
+    display: none;
+}
+.Navlist:hover > .Navul{
+  display: flex;
+  flex-direction: column;
+  background-color: white;
+  border: 2px solid black;
+}
+@media screen and (max-width:768px){
+   .Navtext{
+    border: 2px solid black;
+   }
+    .navbtn{
+      width: 93%;
+      /* border: 1px solid black; */
+    }
+  }
+
+@media screen and (max-width:425px){
+    .Navtext{
+        font-size: 1rem;
+    }    
+    .navbtn{
+        width: 50%;
+    }
+}
+
